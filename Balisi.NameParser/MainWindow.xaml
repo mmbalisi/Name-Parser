@@ -8,6 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Label x:Name="lblInstructions_" Content="Last Name, First Name, Middle Name" HorizontalAlignment="Left" Height="45" Margin="10,10,0,0" VerticalAlignment="Top" Width="280" FontFamily="NSimSun" FontSize="14"/>
+        <TextBox x:Name="txtFullName" HorizontalAlignment="Left" Height="44" Margin="10,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="303" FontFamily="NSimSun" FontSize="14"/>
 
     </Grid>
 </Window>
