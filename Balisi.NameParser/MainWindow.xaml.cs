@@ -24,5 +24,14 @@ namespace Balisi.NameParser
         {
             InitializeComponent();
         }
+
+        private void btnCalculate_Click(object sender, RoutedEventArgs e)
+        {
+            string FullName = txtFullName.Text;
+
+            var firstComma = FullName.IndexOf(",");
+            var LastName = FullName.Substring(0, firstComma);
+            lblLastName.Content = "Last Name:" + LastName;
+        }
     }
 }
