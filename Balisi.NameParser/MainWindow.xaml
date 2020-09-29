@@ -5,13 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Balisi.NameParser"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="363">
     <Grid>
         <Label x:Name="lblInstructions_" Content="Last Name, First Name, Middle Name" HorizontalAlignment="Left" Height="45" Margin="10,10,0,0" VerticalAlignment="Top" Width="303" FontFamily="NSimSun" FontSize="14"/>
         <TextBox x:Name="txtFullName" HorizontalAlignment="Left" Height="44" Margin="10,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="303" FontFamily="NSimSun" FontSize="14"/>
         <Label x:Name="lblLastName" Content="" HorizontalAlignment="Left" Height="49" Margin="10,151,0,0" VerticalAlignment="Top" Width="303" FontFamily="NSimSun" FontSize="14"/>
         <Label x:Name="lblFirstName" Content="" HorizontalAlignment="Left" Height="49" Margin="10,205,0,0" VerticalAlignment="Top" Width="303" FontFamily="NSimSun" FontSize="14"/>
         <Label x:Name="lblMiddleName" Content="" HorizontalAlignment="Left" Height="46" Margin="10,259,0,0" VerticalAlignment="Top" Width="303" FontFamily="NSimSun" FontSize="14"/>
+        <Button x:Name="btnCalculate" Content="Click Me" HorizontalAlignment="Left" Height="49" Margin="194,331,0,0" VerticalAlignment="Top" Width="119"/>
 
     </Grid>
 </Window>
